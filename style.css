@@ -1,0 +1,167 @@
+@import url(https://fonts.google.com/specimen/Karla);
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --prim-cyan: hsl(179, 62%, 43%);
+    --prim-cyan-s: hsl(179, 62%, 58%);
+    --prim-yellow: hsl(71, 73%, 54%);
+    --neut-gray: hsl(204, 43%, 93%);
+    --neut-blue: hsl(218, 22%, 67%);
+
+    --fs-title: 1.35em;
+    --fs-sub: 1.125em;
+    --fs-text: .95em;
+
+    --fw-norm: 400;
+    --fw-sub: 600;
+    --fw-bold: 800;
+}
+
+.html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.body {
+    width: 100vw;
+    background: var(--neut-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.sections {
+    text-align: start;
+    padding: 1.25em;
+}
+
+.main {
+    margin: 2.75em 1.5em;
+}
+
+.title {
+    font-family: Karla, Poppins, Montserrat, sans-serif;
+    font-size: var(--fs-title);
+    font-weight: var(--fw-bold);
+}
+
+.subtitle {
+    font-family: Lato, Montserrat, Poppins, sans-serif;
+    font-weight: var(--fw-sub);
+    font-size: var(--fs-sub);
+}
+
+.text {
+    font-family: Roboto, Poppins, Montserrat, sans-serif;
+    font-weight: var(--fw-norm);
+    font-size: var(--fs-text);
+}
+
+
+/* Header */
+
+.header {
+    background: #fff;
+    border-radius: .5em .5em 0 0;
+}
+
+.header-title {
+    color: var(--prim-cyan);
+}
+
+.header-subtitle {
+    color: var(--prim-yellow);
+}
+
+.header-text {
+    color: var(--neut-blue);
+}
+
+
+/* Content */
+
+.content {
+    background: var(--prim-cyan);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.dollar {
+    font-size: 1.8em;
+    font-weight: var(--fw-bold);
+    color: inherit;
+}
+
+.rate {
+    color: var(--prim-cyan-s);
+}
+
+.dollar + .rate {
+    margin-left: .75em;
+}
+
+.content-button {
+    background: var(--prim-yellow);
+    color: #fff;
+    border: none;
+    border-radius: .4em;
+    font-weight: var(--fw-sub);
+    font-size: var(--fs-sub);
+    height: 2.75em;
+}
+
+
+/* Footer */
+
+.footer {
+    background: var(--prim-cyan-s);
+    color: #fff;
+    border-radius: 0 0 .5em .5em;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    margin-bottom: .3em;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    color: var(--prim-yellow);
+    transition: color 200ms ease-in-out;
+}
+
+.page-footer {
+    background: var(--prim-cyan-s);
+    color: #000;
+    height: 1.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5em .5em 0 0;
+    position: fixed;
+    z-index: -100;
+    bottom: 0;
+    width: 80%;
+}
+
+.page-footer a {
+    color: #fff;
+    text-decoration: none;
+}

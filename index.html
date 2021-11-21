@@ -1,50 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html" lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <title>Single Price Grid Component</title>
+
+
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 10px; text-align: center; margin: 0; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  Join our community
-
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+<body class="body">
   
-  <footer>
+  <main class="main">
+    <!-- Header -->
+    <header class="sections header">
+      <h1 class="title header-title">Join our community</h1>
+      <h2 class="subtitle header-subtitle">
+        30-day, hassle-free money back guarantee
+      </h2>
+      <p class="text header-text">
+        Gain access to our full library of 
+        tutorials along with expert code reviews. 
+        Perfect for any developers who are serious 
+        about honing their skills.
+      </p>
+    </header>
+
+    <!-- Content -->
+    <section class="sections content">
+      <h2 class="subtitle content-subtitle">Monthly Subscription</h2>
+      <h2 class="subtitle price">
+        <span class="dollar">&dollar;29</span> <span class="rate">per month</span>
+      </h2>
+      <p class="text content-text">
+        Full access for less than &dollar;1 a day
+      </p>
+      <button class="content-button">Sign Up</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="sections footer">
+      <h2 class="subtitle footer-subtitle">Why Us</h2>
+      <ul class="text footer-list">
+        <li class="list-item">Tutorials by industry experts</li>
+        <li class="list-item">Peer &amp; expert code review</li>
+        <li class="list-item">Coding exercises</li>
+        <li class="list-item">Access to our GitHub repos</li>
+        <li class="list-item">Community forum</li>
+        <li class="list-item"> Flashcard decks</li>
+        <li class="list-item">New videos every week</li>
+      </ul>
+    </footer>
+
+  </main>
+
+  <section class="page-footer">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="twitter.com/sivaheraj" target="_blank">Jonathan Sivahera</a>.
     </p>
-  </footer>
+  </section>
 </body>
 </html>
