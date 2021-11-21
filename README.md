@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/single-price-grid](https://github.com/jssol/single-price-grid)
-- Live Site URL: [Add live site URL here](https://jssol.github.io/single-price-grid)
+- Solution URL: [https://github.com/jssol/single-price-grid](https://github.com/jssol/single-price-grid)
+- Live Site URL: [https://jssol.github.io/single-price-grid](https://jssol.github.io/single-price-grid)
 
 ## My process
 
