@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/single-price-grid](https://github.com/single-price-grid)
-- Live Site URL: [Add live site URL here](https://github.io/single-price-grid)
+- Solution URL: [https://github.com/single-price-grid](https://github.com/jssol/single-price-grid)
+- Live Site URL: [Add live site URL here](https://jssol.github.io/single-price-grid)
 
 ## My process
 
@@ -37,5 +37,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jsivahera)
-- Twitter - [@yourusername](https://www.twitter.com/sivaheraj)
+- Frontend Mentor - [@jssol](https://www.frontendmentor.io/profile/jsivahera)
+- Twitter - [@Sivaheraj](https://www.twitter.com/sivaheraj)
